@@ -1,0 +1,8 @@
+sda1
+sda2
+sda3
+First Disk = Root
+Second Disk = Home
+Third Disk = Swap
+sdb1
+EFI Partition
