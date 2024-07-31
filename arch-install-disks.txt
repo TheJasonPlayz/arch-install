@@ -1,8 +1,8 @@
-sda1
-sda2
-sda3
+/dev/sda1
+/dev/sda2
+/dev/sda3
 First Disk = Root
 Second Disk = Swap
 Third Disk = Home
-sdb1
+/dev/sdb1
 EFI Partition
