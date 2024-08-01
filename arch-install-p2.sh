@@ -1,12 +1,12 @@
 #!/bin/bash
-mkfs.ext4 "$0"
-mkswap "$1"
+mkfs.ext4 "$1"
+mkswap "$2"
 
-mount "$0" /mnt
+mount "$1" /mnt
 
 source ./arch-install-windows.sh
 
-swapon "$1"
+swapon "$2"
 
 pacstrap -K /mnt base linux linux-firwmare networkmanager dhcpcd network-manager-applet nano man-db man-pages texinfo
 
